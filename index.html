@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Designer</title>
+    <style>
+      body {
+      background: linear-gradient(to bottom, black, lightblue);
+    }
+
+      /* Styles for the design bar section */
+      .design-bar {
+        margin-bottom: 20px;
+        background-color: #2a2617;
+        border: 3px solid #ffcb6ea4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        height: 160px;
+        flex-direction: column;
+        box-shadow: 0px 0px 7px #fffea05c;
+  
+      }
+
+      .bottom-buttons {
+        margin-top: auto;
+      }
+
+      .design-bar button {
+        background-color: #f0674125;
+        color: White;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin: 0 3px;
+        font-size: 11px;
+        cursor: pointer;
+        box-shadow: 1px 4px 4px black;
+      }
+      .design-bar button:last-of-type {
+  margin-top: 10px;
+
+      </style>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  </head>
+  <body>
+    <!-- Head section -->
+    <div class="head">
+      اردو ٹیکسٹ ڈیزائنر
+      <div class="last-buttons">
+      <button id="english-text-designer-button" onclick="window.open('https://codepen.io/shahi022/full/vYVyExx', '_blank')">English Text Designer</button>
+</div>
+    </div>
+
+ <!-- Design bar section -->
+    <div class="design-bar">
+      <div class="top-buttons">
+        <button class="red-font-button" onclick="setRedFont()">Red Font</button>
+        <button class="green-font-button" onclick="setGreenFont()">Green Font</button>
+        <button class="blue-font-button" onclick="setBlueFont()">Blue Font</button>
+         </div>
+      <div class="bottom-buttons">
+        <button class="increase-font-size-button" onclick="increaseFontSize()">+ 2</button>
+    <button class="decrease-font-size-button" onclick="decreaseFontSize()">+ 1</button>
+        <button class="bold-button">Bold</button>
+        <button class="italic-button">Italic</button>
+      </div>
+      <div class="bottom-buttons">
+      <button class="underline-button">Underline</button>
+      <button class="reset-design-button">Reset Design</button>
+    </div>
+</div>
+    <!-- Text box section -->
+    <div class="text-box" style="border: 3px solid #2a2617; background: linear-gradient(to bottom right, #ffffff, #ffffe0);
+   color: black; width: 3.1in; height: 5in; margin-top: 20px;box-shadow: 5px 5px 10px #fffea05c" contenteditable>
+      یہاں لکھیے
+    </div>
+    
+    <footer>
+      <footer style="background-color: white;">
+  <div style="color: black; padding: 10px;">
+    <p>Remember to select the text before designing. Then click on the button you want to apply on the text.To save your design, click on the "Save" button or take a  screenshot.</p>
+  </div>
+</footer
+  </body>
+</html>

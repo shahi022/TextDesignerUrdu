@@ -1,0 +1,70 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&display=swap');
+
+/* Styles for the text box */
+.text-box {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: right;
+  direction: rtl;
+  font-size: 10pt;
+  font-family: 'Noto Nastaliq Urdu', serif;
+  width: 4in;
+  height: 7in;
+}
+
+/* Styles for the font buttons */
+.design-bar .red-font-button,
+.design-bar .green-font-button {
+  height: 36px;
+}
+
+/* Styles for the footer */
+footer {
+  margin-top: 20px;
+}
+
+footer div {
+  color: black;
+  padding: 10px;
+  font-family: ArialBLACK;
+  font-weight: 
+  text-align: top;
+}
+
+footer p {
+  font-size: 20px;
+  line-height: 3;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px green;
+}
+
+/* Styles for the head section */
+.head {
+  background-color: #2a2617;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  font-family: 'Alexandria', serif;
+  font-weight: bold;
+  border: 3px solid #ffcb6ea4;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px #fffea05c;
+  color: #fffea05c;
+  line-height: 2;
+}
+#english-text-designer-button {
+  background-color: #2a2617;
+        color: White;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin: 0 3px;
+        font-size: 11px;
+        cursor: pointer;
+        box-shadow: 1px 4px 4px black;
+      }
